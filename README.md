@@ -42,7 +42,7 @@ Reviewed the provided organizational chart to identify required changes to AD.
 
 First attempt to delete the R&D OU failed because of accidental deletion protection.
 
-![OU deletion protection error](AD_Task_4_2.png)
+![OU deletion protection error](AD_Task_4_2%20.png)
 
 Enabled Advanced Features in ADUC under the View menu to expose the protection setting.
 
@@ -56,9 +56,9 @@ Opened the OU's Properties → Object tab → unchecked "Protect object from acc
 
 Used the Delegate Control Wizard on the **Sales OU** to grant Phillip (IT Support) the ability to reset passwords for users in Sales.
 
-![Delegation wizard: adding Phillip](AD_Task_4_5.png)
+![Delegation wizard: adding Phillip](AD_Task_4_5%20.png)
 ![Phillip selected in the wizard](AD_Task_4_6.png)
-![Selecting the "Reset user passwords" task](AD_Task_4_7.png)
+![Selecting the "Reset user passwords" task](AD_Task_4_7%20.png)
 
 **Testing the delegation**
 
@@ -96,7 +96,7 @@ Created two new OUs under `thm.local`: **Workstations** and **Servers**.
 
 Moved 7 workstation devices (laptops + PCs) into Workstations.
 
-![Workstations OU populated](AD_Task_5_3.png)
+![Workstations OU populated](AD_Task_5_3%20.png)
 
 Moved 3 server devices into Servers.
 
@@ -120,7 +120,7 @@ Changed Minimum Password Length from 7 to 10 characters under `Computer Configur
 
 **Created the "Restrict Control Panel Access" GPO**
 
-![Naming the new GPO](AD_Task_6_5.png)
+![Naming the new GPO](AD_Task_6_5%20.png)
 
 Edited the GPO and navigated to `User Configuration → Policies → Administrative Templates → Control Panel`.
 
@@ -185,3 +185,5 @@ Conceptual task covering multi-domain AD:
 ## Task 9 — Conclusion
 
 Room completed (100%).
+
+---
